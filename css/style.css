@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 16px;
+    margin: 0;
     background: #162729;
     border: solid red;
     border-width: thin;
@@ -17,7 +17,7 @@ nav p {
     margin: 16px;
     font-family: 'DM Mono', monospace;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 31px;
     color: #E6E8E8;
     border: solid red;
@@ -26,12 +26,12 @@ nav p {
 
 .emphasis {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .heroImg{
     padding: 25px;
-    height: 400px;
+    height: 300px;
     border: solid red;
     border-width: thin;
 }
@@ -41,7 +41,7 @@ nav p {
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 148%;
     letter-spacing: 0.03em;
     color: #E6E8E8;
@@ -88,5 +88,47 @@ button{
     align-items: center;
     justify-content: center;
     margin: 8px;
+    padding: 4px;
+    border: solid #A6AEB0;
+    border-width: thin;
+    height: 420px;
+    width: 360px;
+    border-radius: 8px;
+    background-color: #0B1D21;
+}
+
+.skillCard p{
     padding: 8px;
+    text-align: center;
+    border: solid red;
+    border-width: thin;
+    color: #A6AEB0;
+    font-family: 'DM Sans';
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+.skillCard img{
+    height: 200px;
+    border: solid red;
+    border-width: thin;
+    border-radius: 4px;
+}
+
+.skillCard .emphasis{
+    color: #ECB6FF;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Rockwell';
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    border: solid red;
+    border-width: thin;
 }
