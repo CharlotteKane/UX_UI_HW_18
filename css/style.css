@@ -3,7 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 16px;
     background: #162729;
+    border: solid red;
+    border-width: thin;
 }
 
 body{
@@ -11,11 +14,14 @@ body{
 }
 nav p {
     padding: 8px;
+    margin: 16px;
     font-family: 'DM Mono', monospace;
     font-weight: 200;
     font-size: 18px;
     line-height: 31px;
     color: #E6E8E8;
+    border: solid red;
+    border-width: thin;
 }
 
 .emphasis {
@@ -26,6 +32,8 @@ nav p {
 .heroImg{
     padding: 25px;
     height: 400px;
+    border: solid red;
+    border-width: thin;
 }
 
 .content{
@@ -38,11 +46,15 @@ nav p {
     letter-spacing: 0.03em;
     color: #E6E8E8;
     padding: 16px;
+    border: solid red;
+    border-width: thin;
 }
 
 .image{
     float: left;
     padding: 16px;
+    border: solid red;
+    border-width: thin;
 }
 
 .footer{
@@ -54,6 +66,8 @@ nav p {
     font-weight: 200;
     font-size: 18px;
     line-height: 31px;
+    border: solid red;
+    border-width: thin;
 }
 
 button{
@@ -66,4 +80,13 @@ button{
     font-size: 12px;
     color: #162729;
     padding: 6px;
+}
+
+.skillCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    padding: 8px;
 }
